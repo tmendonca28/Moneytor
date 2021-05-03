@@ -1,7 +1,7 @@
 const usernameField=document.querySelector("#usernameField");
 const feedbackArea=document.querySelector(".invalid_feedback");
 const emailField=document.querySelector("#emailField");
-const emailFeedbackArea=document.querySelector(".email_feedback_area");
+const emailFeedbackArea=document.querySelector(".emailFeedbackArea");
 const usernameSuccessOutput=document.querySelector(".usernameSuccessOutput");
 const emailSuccessOutput=document.querySelector(".emailSuccessOutput");
 
