@@ -10,6 +10,7 @@ python-decouple = "*"
 django-heroku = "*"
 gunicorn = "*"
 waitress = "*"
+validate-email = "*"
 
 [dev-packages]
 
