@@ -137,3 +137,11 @@ django_heroku.settings(locals())
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+# email details
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')
+EMAIL_PORT = 587
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
